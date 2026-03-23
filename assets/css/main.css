@@ -47,3 +47,6 @@ footer a:hover { text-decoration: underline; }
 }
 main a.internal-link::after { content: none !important; }
 main a.internal-link { text-decoration: none; }
+main a::after { content: " ↗"; }
+main a.internal-link::after { content: none !important; }
+main a.internal-link { text-decoration: underline; }
