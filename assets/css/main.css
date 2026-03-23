@@ -46,3 +46,5 @@ mark.stories { background: #b0cef2; }
 mark.spaces { background: #f9f2aa; }
 mark.systems { background: #cef4c3; }
 mark.strategies { background: #daa1c8; }
+a.internal-link::after { content: none; }
+a.internal-link { text-decoration: none; }
