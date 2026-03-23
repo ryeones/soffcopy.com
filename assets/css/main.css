@@ -45,3 +45,5 @@ footer a:hover { text-decoration: underline; }
   main { max-width: 100%; }
   footer { position: fixed; bottom: 24px; left: 24px; right: 24px; gap: 16px; }
 }
+main a.internal-link::after { content: none !important; }
+main a.internal-link { text-decoration: none; }
