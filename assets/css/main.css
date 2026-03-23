@@ -50,3 +50,6 @@ main a.internal-link { text-decoration: none; }
 main a::after { content: " ↗"; }
 main a.internal-link::after { content: none !important; }
 main a.internal-link { text-decoration: underline; }
+main h2 { font-size: 15px; font-weight: 400; margin-bottom: 1em; margin-top: 0; }
+main h3 { font-size: 15px; font-weight: 400; margin-bottom: 1em; margin-top: 0; }
+main h3 { font-size: 16px; font-weight: 500; margin-bottom: 0.5em; margin-top: 1.5em; }

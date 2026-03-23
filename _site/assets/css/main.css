@@ -11,8 +11,11 @@ body {
 a { color: #333333; text-decoration: none; }
 
 main a { text-decoration: underline; }
-main a::after { content: " ↗"; }
+main a::after { content: none; }
 main a:hover { opacity: 0.6; }
+
+a.internal-link { text-decoration: none; }
+a.internal-link::after { content: none; }
 
 header nav { display: flex; gap: 28px; margin-bottom: 60px; flex-wrap: wrap; }
 header nav a { color: #aaa; text-decoration: none; }
@@ -27,8 +30,8 @@ main h2 { font-size: 15px; font-weight: 500; margin-bottom: 0.5em; margin-top: 1
 mark { padding: 0 2px; border-radius: 2px; }
 mark.stories { background: #b0cef2; }
 mark.spaces { background: #f9f2aa; }
-mark.speakers { background: #daa1c8; }
-mark.stepping-stones { background: #cef4c3; }
+mark.systems { background: #cef4c3; }
+mark.strategies { background: #daa1c8; }
 
 footer { position: fixed; bottom: 36px; left: 220px; display: flex; gap: 24px; flex-wrap: wrap; }
 footer a { color: #333333; font-size: 14px; text-decoration: none; }
@@ -40,3 +43,11 @@ footer a:hover { text-decoration: underline; }
   main { max-width: 100%; }
   footer { position: fixed; bottom: 24px; left: 24px; right: 24px; gap: 16px; }
 }
+main a.internal-link::after { content: none !important; }
+main a.internal-link { text-decoration: none; }
+main a::after { content: " ↗"; }
+main a.internal-link::after { content: none !important; }
+main a.internal-link { text-decoration: underline; }
+main h2 { font-size: 15px; font-weight: 400; margin-bottom: 1em; margin-top: 0; }
+main h3 { font-size: 15px; font-weight: 400; margin-bottom: 1em; margin-top: 0; }
+main h3 { font-size: 16px; font-weight: 500; margin-bottom: 0.5em; margin-top: 1.5em; }

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "pages/spaces.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "spaces"
             }
           }
         ]
@@ -185,23 +185,27 @@
   },
   "active": "e958beda8181d857",
   "lastOpenFiles": [
-    "Gemfile.lock",
-    "pages/studios.md",
-    "index.md",
-    "README.md",
+    "_site/favicon.png",
+    "favicon.png",
+    "_site/Asset 2.png",
+    "Asset 2.png",
     "pages/systems.md",
-    "pages/spaces.md",
-    "_includes/tooltip.html",
-    "_plugins/bidirectional_links_generator.rb",
-    "_plugins/markdown-highlighter.rb",
-    "_plugins/open_external_links_in_new_tab.rb",
-    "_plugins",
-    "pages/fomties.md",
+    "pages/studios.md",
+    "_site/README.md",
+    "_site/systems/index.html",
+    "_site/systems",
+    "_site/studios/index.html",
+    "_site/studios",
+    "_site/spaces/index.html",
+    "_site/spaces",
+    "_includes/notes_graph.json",
     "pages/about.md",
-    "_site/fomties/index.html",
-    "_site/fomties",
-    "_site/space/index.html",
-    "_site/space",
-    "_site/studio/index.html"
+    "pages/fomties.md",
+    "pages/spaces.md",
+    "index.md",
+    "Gemfile.lock",
+    "README.md",
+    "_includes/tooltip.html",
+    "_plugins/bidirectional_links_generator.rb"
   ]
 }
