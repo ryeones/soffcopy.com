@@ -1,7 +1,7 @@
 ---
 layout: default
 title: soffcopy space
-permalink: /space/
+permalink: /spaces/
 ---
 soffcopy space work-in-progress physical space in singapore for people who are still working things out.
 

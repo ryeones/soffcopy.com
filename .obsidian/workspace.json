@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
-                "mode": "source",
+                "file": "pages/systems.md",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "systems"
             }
           }
         ]
@@ -183,13 +183,15 @@
       "bases:Create new base": false
     }
   },
-  "active": "e958beda8181d857",
+  "active": "1bea6013e5c7f0fe",
   "lastOpenFiles": [
-    "pages/fomties.md",
-    "pages/space.md",
-    "pages/about.md",
+    "pages/spaces.md",
+    "pages/systems.md",
     "index.md",
-    "pages/studio.md",
+    "pages/fomties.md",
+    "pages/studios.md",
+    "README.md",
+    "pages/about.md",
     "_site/fomties/index.html",
     "_site/fomties",
     "_site/space/index.html",
