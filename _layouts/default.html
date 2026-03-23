@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title }}</title>
+  <link rel="stylesheet" href="/assets/css/main.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="/" {% if page.url == "/" %}class="active"{% endif %}>home</a>
+      <a href="/about" {% if page.url == "/about/" %}class="active"{% endif %}>about</a>
+      <a href="/studio" {% if page.url == "/studio/" %}class="active"{% endif %}>soffcopy studio</a>
+      <a href="/space" {% if page.url == "/space/" %}class="active"{% endif %}>soffcopy space</a>
+      <a href="/fomties" {% if page.url == "/fomties/" %}class="active"{% endif %}>fomties</a>
+    </nav>
+  </header>
+  <main>
+    {{ content }}
+  </main>
+  <footer>
+    <nav>
+      <a href="https://twitter.com/soffcopy" target="_blank">twitter ↗</a>
+      <a href="https://instagram.com/soffcopy" target="_blank">instagram ↗</a>
+      <a href="https://youtube.com/@soffcopy" target="_blank">youtube ↗</a>
+      <a href="https://lu.ma/soffcopy" target="_blank">luma ↗</a>
+      <a href="mailto:hello@soffcopy.com">contact ↗</a>
+    </nav>
+  </footer>
+</body>
+</html>

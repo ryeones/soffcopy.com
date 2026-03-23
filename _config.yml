@@ -1,0 +1,8 @@
+title: Soffcopy
+url: ""
+baseurl: ""
+
+collections:
+  pages:
+    output: true
+    permalink: /:name/
