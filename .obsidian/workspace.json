@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pages/systems.md",
+                "file": "index.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "systems"
+              "title": "index"
             }
           }
         ]
@@ -183,10 +183,14 @@
       "bases:Create new base": false
     }
   },
-  "active": "1bea6013e5c7f0fe",
+  "active": "e958beda8181d857",
   "lastOpenFiles": [
-    "pages/spaces.md",
+    "_plugins/bidirectional_links_generator.rb",
+    "_plugins/markdown-highlighter.rb",
+    "_plugins/open_external_links_in_new_tab.rb",
+    "_plugins",
     "pages/systems.md",
+    "pages/spaces.md",
     "index.md",
     "pages/fomties.md",
     "pages/studios.md",
@@ -198,9 +202,6 @@
     "_site/space",
     "_site/studio/index.html",
     "_site/studio",
-    "_site/about/index.html",
-    "_site/about",
-    "pages",
-    "assets/css/main.css"
+    "_site/about/index.html"
   ]
 }
