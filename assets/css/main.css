@@ -48,3 +48,5 @@ mark.systems { background: #cef4c3; }
 mark.strategies { background: #daa1c8; }
 a.internal-link::after { content: none; }
 a.internal-link { text-decoration: none; }
+a.internal-link::after { content: none; }
+a.internal-link { text-decoration: none; }
