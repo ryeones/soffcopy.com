@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pages/fomties.md",
-                "mode": "preview",
+                "file": "README.md",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "fomties"
+              "title": "README"
             }
           }
         ]
@@ -185,9 +185,9 @@
   },
   "active": "e958beda8181d857",
   "lastOpenFiles": [
+    "pages/fomties.md",
     "pages/space.md",
     "pages/about.md",
-    "pages/fomties.md",
     "index.md",
     "pages/studio.md",
     "_site/fomties/index.html",
