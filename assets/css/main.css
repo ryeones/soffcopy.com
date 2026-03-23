@@ -16,7 +16,7 @@ main a { text-decoration: underline; }
 main a::after { content: " ↗"; }
 main a:hover { opacity: 0.6; }
 
-header nav { display: flex; gap: 28px; margin-bottom: 60px; }
+header nav { display: flex; gap: 28px; margin-bottom: 60px; flex-wrap: wrap; }
 header nav a { color: #aaa; text-decoration: none; }
 header nav a::after { content: none; }
 header nav a.active { color: #333333; }
@@ -26,11 +26,19 @@ main { max-width: 680px; }
 main p { line-height: 1.65; margin-bottom: 1em; }
 main h2 { font-size: 15px; font-weight: 500; margin-bottom: 0.5em; margin-top: 1.5em; }
 
-footer { position: fixed; bottom: 36px; left: 220px; display: flex; gap: 24px; }
-footer a { color: #333333; font-size: 14px; text-decoration: none; }
-footer a:hover { text-decoration: underline; }
 mark { padding: 0 2px; border-radius: 2px; }
 mark.stories { background: #b0cef2; }
 mark.spaces { background: #f9f2aa; }
 mark.speakers { background: #daa1c8; }
 mark.stepping-stones { background: #cef4c3; }
+
+footer { position: fixed; bottom: 36px; left: 220px; display: flex; gap: 24px; flex-wrap: wrap; }
+footer a { color: #333333; font-size: 14px; text-decoration: none; }
+footer a:hover { text-decoration: underline; }
+
+@media (max-width: 768px) {
+  body { padding: 32px 24px 120px 24px; }
+  header nav { gap: 16px; margin-bottom: 40px; }
+  main { max-width: 100%; }
+  footer { position: fixed; bottom: 24px; left: 24px; right: 24px; gap: 16px; }
+}
