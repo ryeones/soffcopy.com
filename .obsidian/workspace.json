@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pages/spaces.md",
+                "file": "pages/about.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "spaces"
+              "title": "about"
             }
           }
         ]
@@ -185,12 +185,14 @@
   },
   "active": "e958beda8181d857",
   "lastOpenFiles": [
+    "pages/fomties.md",
+    "pages/spaces.md",
+    "pages/systems.md",
+    "pages/studios.md",
     "_site/favicon.png",
     "favicon.png",
     "_site/Asset 2.png",
     "Asset 2.png",
-    "pages/systems.md",
-    "pages/studios.md",
     "_site/README.md",
     "_site/systems/index.html",
     "_site/systems",
@@ -200,8 +202,6 @@
     "_site/spaces",
     "_includes/notes_graph.json",
     "pages/about.md",
-    "pages/fomties.md",
-    "pages/spaces.md",
     "index.md",
     "Gemfile.lock",
     "README.md",

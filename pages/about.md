@@ -4,7 +4,7 @@ title: about
 permalink: /about/
 ---
 
-i'm [ryan](https://www.ryeones.com/). i'm in my twenties, figuring it out like everyone else.
+i'm ryan, aka [ryeones](https://www.ryeones.com/). i'm in my twenties, figuring it out like everyone else.
 
 i grew up in an average household. no connections, no inheritance, no roadmap. just a restlessness i couldn't shake. going through the motions never felt like enough.
 

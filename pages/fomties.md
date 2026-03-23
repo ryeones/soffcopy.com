@@ -4,6 +4,9 @@ title: fomties
 permalink: /fomties/
 ---
 
+### fomties
+
+
 your twenties are the decade nobody fully prepares you for.
 
 
